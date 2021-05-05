@@ -23,7 +23,7 @@ else {
 			$uemail_db = $get_user_email['email'];
 			$utype_db = $get_user_email['type'];
 }
-
+// bhbhb
 if (isset($_REQUEST['uid'])) {
 	$user2 = mysqli_real_escape_string($con, $_REQUEST['uid']);
 
